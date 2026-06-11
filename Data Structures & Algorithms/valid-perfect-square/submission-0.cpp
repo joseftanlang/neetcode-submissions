@@ -1,0 +1,7 @@
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+        if (sqrt(num) == ceil(sqrt(num))) return true;
+        return false;
+    }
+};
